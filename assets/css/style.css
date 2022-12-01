@@ -49,11 +49,14 @@ main {
     padding: 6%;
     background-color: white;
     font-weight: 700;
+    margin-bottom: 15px;
 
 }
 
 video {
     align-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .title {
@@ -87,21 +90,37 @@ code {
 .keyword {
     color: red;
 }
+
+.linkblu {
+    color: rgb(0, 140, 255);
+    font-weight: bolder;
+}
 /* TABELLE */
 
-
+.mytable {margin-bottom: 10px;}
 .mytable { width:100%; border-collapse:collapse; }
 .mytable td { padding:7px; border:#feffff 1px solid; }
 .mytable tr { background: #b8d1f3; }
 .mytable tr td:nth-child(odd)  { background: #dddfe2; }
 .mytable tr td:nth-child(even) { background: #dae5f4; }
 
+.titletable {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.undertable {
+    margin-bottom: 10px;
+}
 
 /* FORM */
 
 .grassetto {
-    font-weight: 600;
+    font-size: 1.5em;
     text-align: center;
+    
 
 }
 
@@ -115,20 +134,48 @@ code {
 
 /* ELEMENTI NELL' ASIDE */
 
+aside {
+    padding: 15px auto;
+}
 
-.box {
+.box1 {
     background-color: lightgray;
-    margin: 10px auto;
     height: 95px;
     text-align: center;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.box2 {
+    background-color: lightgray;
+    height: 95px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    background-color: lightgray;
+    height: 95px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.databox {
+    text-align: end;
+    margin-top: 4px;
+}
+
+.categorybox {
+    margin: 4px;
+}
+
 
 
 /* FOOTER */
 
 footer {
-    margin: 15px auto;
+    margin: 55px auto;
     padding: 10px 10px;
     background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(54,54,108,1) 40%, rgba(0,212,255,1) 100%);
     color: white;
