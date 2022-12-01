@@ -5,6 +5,7 @@ body {
     min-width: 450px;
     max-width: 500px;
     margin: auto;
+    background-image: url(/assets/img/sfondo.png);
 
 }
 
@@ -76,6 +77,26 @@ video {
 
 /* FORM */
 
+.grassetto {
+    font-weight: 600;
+    
+}
+
 /* ELEMENTI NELL' ASIDE */
 
+.link {
+    border: solid;
+    background-color: lightgray;
+
+}
+
 /* FOOTER */
+
+footer {
+    margin: 15px auto;
+    padding: 5px 5px;
+    background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(54,54,108,1) 40%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
