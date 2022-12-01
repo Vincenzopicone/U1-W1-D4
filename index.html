@@ -18,9 +18,9 @@
   <img src="./assets/img/logo.svg" alt="Logo-Epicode" width="250">
     <h1 id="title"> EPICODE - IL BLOG DEI DEVELOPERS </h1>
     <nav id="menu-style">
-        <p> ⇒ MENU ⇐ </a></p>
-        <p> ⇒ ARTICOLI ⇐</a></p>
-        <p> ⇒ LAVORA CON NOI ⇐</a></p>
+        <p> <a href="#">⇒ MENU ⇐ </a></p>
+        <p> <a href="#">⇒ ARTICOLI ⇐</a></p>
+        <p> <a href="#">⇒ LAVORA CON NOI ⇐</a></p>
     </nav>
  </header>
     <main>
@@ -29,9 +29,9 @@
       <section class="testo"> La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="keyword">parti comuni</span> da applicare a tutte le pagine. </section>
         <p class="testo"> Le aree saranno quindi suddivise in:</p>
           <ul class="testo lista">
-            <li>Contenuti di intestazione del tag &lt; Header &gt; </li>
-            <li>Contenuti centrali variabili del tag &lt; Main &gt; (corpo principale) </li>
-            <li>Contenuti di fine pagina comuni, da inserire nel tag &lt; Footer &gt;</li>
+            <li>Contenuti di intestazione del tag<code> &lt; Header &gt; </code></li>
+            <li>Contenuti centrali variabili del tag <code>&lt; Main &gt;</code> (corpo principale) </li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt; Footer &gt;</code></li>
             <li>Formattazione del codice</li>
           </ul>
       <div class="testo"> Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span class="keyword">selezionare con i CSS </span>. Perciò i passi saranno:</div>
@@ -44,8 +44,8 @@
       </div>
       <p> L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
       <hr>
-      <table>
-        <thead><b>Diffusione dei CSS</b></thead>
+      <p><b>Diffusione dei CSS</b></p>
+      <table class="mytable">
         <tr><td>Anno</td><td>% di utilizzo</td><td>Supporto Browsers</td></tr>
         <tr><td>2000</td><td>20%</td><td>17%</td></tr>
         <tr><td>2002</td><td>35%</td><td>22%</td></tr>
@@ -55,7 +55,7 @@
       </table>
       <p> Un test di validazione potrà essere fatto tramite il <a href="https://www.html.it/pag/16055/tabella-struttura-di-base/" target="_blank"> tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro: </p>
         <div id="video">
-           <iframe width="350" height="195" src="https://www.youtube.com/embed/AV5qRtBEtGQ" title="Chi sono i web developer? Le risposte alle 5 domande che tutti vogliono sapere sui programmatori web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="450" height="250" src="https://www.youtube.com/embed/AV5qRtBEtGQ" title="Chi sono i web developer? Le risposte alle 5 domande che tutti vogliono sapere sui programmatori web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       <div class="form">  
         <p class="grassetto"> <b>Novità</b> </p>
@@ -68,22 +68,28 @@
       <div class="grassetto">
          <p>Articoli correlati</p>
       </div>   
-    <articole>      
-         <p class="link">
-            <a href="#"> Validare il codice HTML</a> <br>
-            Categoria: develop <br>
-            Data: 18-9-2020
+    <articole> 
+        <div class="box">
+         <p>
+            <a href="#"> Validare il codice HTML</a>
+            <p>Categoria: develop </p>
+            <p>Data: 18-9-2020 </p>
          </p>
-         <p class="link">
-           <a href="#"> Correggere la sintassi</a> <br>
-            Categoria: develop <br>
-            Data: 16-9-2020
+        </div>
+        <div class="box">
+          <p>
+           <a href="#"> Correggere la sintassi</a>
+            <p>Categoria: develop </p>
+            <p>Data: 16-9-2020</p>
          </p>
-         <p class="link">
-           <a href="#"> Meno KB nella pagina</a> <br>
-           Categoria: develop <br>
-           Data: 30-9-2020
+        </div>
+        <div class="box">
+         <p>
+           <a href="#"> Meno KB nella pagina</a>
+           <p>Categoria: develop </p>
+           <p>Data: 30-9-2020</p>
         </p>
+      </div>
     </articole>
     </main>
     <footer>

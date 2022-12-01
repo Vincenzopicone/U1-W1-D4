@@ -6,6 +6,7 @@ body {
     max-width: 500px;
     margin: auto;
     background-image: url(/assets/img/sfondo.png);
+    background-position: center center;
 
 }
 
@@ -15,10 +16,16 @@ header {
     margin: 5%;
     color: white;
     padding-bottom: 3%;
-    font-style: bold;
+    font-style: uppercase;
     text-align: center;
     font-weight: 900;
+    box-shadow: 0 3px 3px lightgrey;
     }
+
+nav p a {
+    text-decoration: none;
+    color: white;
+}
 
 #title {
     margin: 2%;
@@ -60,6 +67,13 @@ video {
     font-weight: 500;
     margin: 8px auto;
 }
+
+code {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 .testo {
@@ -75,11 +89,20 @@ video {
 }
 /* TABELLE */
 
+
+.mytable { width:100%; border-collapse:collapse; }
+.mytable td { padding:7px; border:#feffff 1px solid; }
+.mytable tr { background: #b8d1f3; }
+.mytable tr td:nth-child(odd)  { background: #dddfe2; }
+.mytable tr td:nth-child(even) { background: #dae5f4; }
+
+
 /* FORM */
 
 .grassetto {
     font-weight: 600;
     text-align: center;
+
 }
 
 .form {
@@ -92,19 +115,28 @@ video {
 
 /* ELEMENTI NELL' ASIDE */
 
-.link {
-    border: solid;
+
+.box {
     background-color: lightgray;
+    margin: 10px auto;
+    height: 95px;
+    text-align: center;
 
 }
+
 
 /* FOOTER */
 
 footer {
     margin: 15px auto;
-    padding: 5px 5px;
+    padding: 10px 10px;
     background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(54,54,108,1) 40%, rgba(0,212,255,1) 100%);
     color: white;
     font-family: Poppins, 'Helvetica Neue', sans-serif;
     text-align: center;
+    font-weight: bolder;
+}
+
+footer div a {
+    color: red;
 }
