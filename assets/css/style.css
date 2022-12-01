@@ -79,7 +79,15 @@ video {
 
 .grassetto {
     font-weight: 600;
-    
+    text-align: center;
+}
+
+.form {
+    background-color: lightgrey;
+    height: 80px;
+    width: 430px;
+    text-align: center;
+    margin: 15px auto;
 }
 
 /* ELEMENTI NELL' ASIDE */
